@@ -227,15 +227,22 @@ function Home() {
                 delay: 0.85,
               }}
             >
-              <a href="/work" className="button button-primary">
-                View My Work
-                <FiArrowDownRight />
-              </a>
 
-              <a href="/contact" className="button button-outline">
-                Let's Talk
-                <FiArrowUpRight />
-              </a>
+              <div className="hero-actions">
+                <Link to="/work" className="button button-primary">
+                  View My Work
+                    <span>
+                      <FiArrowDownRight />
+                    </span>
+                </Link>
+
+                <Link to="/contact" className="button button-outline">
+                  Let's Talk
+                  <span>
+                    <FiArrowUpRight />
+                  </span>
+                </Link>
+              </div>
             </motion.div>
 
           </div>
@@ -980,10 +987,12 @@ function Home() {
               </div>
             </div>
 
-            <a href="/contact" className="process-button">
+            <Link to="/contact" className="process-button">
               Start a Project
-              <FiArrowUpRight />
-            </a>
+              <span>
+                <FiArrowUpRight />
+              </span>
+            </Link>
 
           </div>
 
@@ -1017,9 +1026,14 @@ function Home() {
               <em>GOOD.</em>
             </h2>
 
-            <a href="/contact" className="contact-button">
-              Let's Talk <span>↗</span>
-            </a>
+            <Link to="/contact"
+              className="contact-button"
+              aria-hidden="true">
+                Let's Talk
+                <span>
+                  <FiArowUpRight />
+                </span>
+            </Link>
           </div>
 
           <div className="contact-art">

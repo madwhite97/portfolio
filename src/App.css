@@ -2883,3 +2883,296 @@ marquee::before {
     flex-wrap: wrap;
   }
 }
+
+/* ====================
+  TABLET POLISH
+==================== */
+
+@media (min-width: 768px) and (max-width: 1100px) {
+
+  .work-intro {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .work-intro-copy {
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .work-intro-copy p {
+    margin: 0;
+  }
+
+  .work-showcase {
+    margin-top: 45px;
+  }
+
+  .about-photo {
+    width: 115%;
+  }
+
+  .about-flower {
+    width: 55%;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-inner {
+    width: 88%;
+
+    grid-template-columns: 1fr;
+
+    min-height: auto;
+
+    padding-top: 45px;
+    padding-bottom: 0;
+
+    gap: 0;
+  }
+
+  .hero-copy {
+    max-width: 760px;
+
+    padding-bottom: 0;
+  }
+
+  .hero-actions {
+    margin-top: 28px;
+  }
+
+  .hero-device-scene {
+    width: min(850px, 100%);
+
+    height: 500px;
+
+    margin: -70px auto 0;
+
+    align-self: auto;
+  }
+
+  .hero-laptop {
+    width: 76%;
+
+    top: 110px;
+    right: -3%;
+  }
+
+  .hero-ipad {
+    width: 56%;
+
+    left: 3%;
+    bottom: -15px;
+  }
+
+  .hero-phone {
+    width: 29%;
+
+    right: 0;
+    bottom: -5px;
+  }
+
+  .scroll-note {
+    left: 0;
+    bottom: 30px;
+  }
+
+  .featured-project {
+    padding-bottom: 0;
+    gap: 20px;
+  }
+
+  .featured-visual {
+    min-height: 360px;
+  }
+
+  .featured-laptop-scene {
+    height: 390px;
+    margin: -40px auto -20px;
+  }
+
+  .featured-laptop {
+    bottom: 70px;
+  }
+
+  .featured-work-rocks {
+    bottom: -110px;
+  }
+
+  .featured-project-glow {
+    bottom: 65px;
+    height: 240px;
+  }
+
+  .project-strip {
+    padding-top: 15px;
+    margin-top: 0;
+  }
+
+  .services-section {
+    min-height: auto;
+    padding: 85px 0 90px;
+  }
+
+  .services-container {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .services-laytou {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .services-heading {
+    max-width: 650px;
+  }
+
+  .services-heading h2 {
+    font-size: clamp(58px, 8vw, 82px);
+    line-height: 0.92;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .services-card {
+    min-height: 260px;
+    padding: 30px 34px;
+
+    border-bottom: 1px solid rgba(243, 231, 211, 0.18);
+  }
+
+  .services-card:nth-child(odd) {
+    border-left: none;
+  }
+
+  .service-card h3 {
+    font-size: 20px;
+    line-height: 1.15;
+  }
+
+  .service-card p {
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .contact-button span {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+  }
+
+  .contact-section {
+    min-height: auto;
+    padding: 85px 0 70px;
+  }
+
+  .contact-inner {
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .contact-art {
+    position: relative;
+
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: visible;
+  }
+
+  .contact-silhouette {
+    width: 470px;
+    max-width: none;
+
+    right: auto;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+
+  .contact-note {
+    width: 230px;
+
+    right: auto;
+    left: 44%;
+    bottom: 90px;
+
+    transform: rotate(12deg);
+  }
+
+  .footer-heart {
+    display: inline-block;
+
+    margin-left: 3px;
+
+    color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1;
+
+    vertical-align: baseline;
+  }
+
+  .navbar {
+    width: 92%;
+    height: 90px;
+
+    grid-template-columns: auto 1fr auto;
+
+    gap: 22px;
+  }
+
+  .logo {
+    font-size: 34px;
+  }
+
+  .nav-links {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+  }
+
+  .nav-links a {
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    white-space: nowrap;
+  }
+
+  .nav-actions {
+    gap: 9px;
+  }
+
+  .nav-github {
+    width: 34px;
+    height: 34px;
+
+    font-size: 17px;
+  }
+
+  .nav-button {
+    padding: 10px 14px;
+
+    font-size: 10px;
+
+    white-space: nowrap;
+  }
+}
+
