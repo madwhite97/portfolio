@@ -10,7 +10,6 @@ import {
   FiArrowRight,
 } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 import heroBackground from "./assets/hero.jpg";
 import allOutLaptop from "./assets/all-out-laptop.svg";
@@ -227,22 +226,19 @@ function Home() {
                 delay: 0.85,
               }}
             >
-
-              <div className="hero-actions">
-                <Link to="/work" className="button button-primary">
-                  View My Work
-                    <span>
-                      <FiArrowDownRight />
-                    </span>
-                </Link>
-
-                <Link to="/contact" className="button button-outline">
-                  Let's Talk
+              <a href="/work" className="button button-primary">
+                View My Work
                   <span>
-                    <FiArrowUpRight />
+                    <FiArrowDownRight />
                   </span>
-                </Link>
-              </div>
+              </a>
+
+              <a href="/contact" className="button button-outline">
+                Let's Talk
+                <span>
+                  <FiArrowUpRight />
+                </span>
+              </a>
             </motion.div>
 
           </div>
@@ -987,12 +983,12 @@ function Home() {
               </div>
             </div>
 
-            <Link to="/contact" className="process-button">
+            <a href="/contact" className="process-button">
               Start a Project
               <span>
                 <FiArrowUpRight />
               </span>
-            </Link>
+            </a>
 
           </div>
 
@@ -1026,14 +1022,14 @@ function Home() {
               <em>GOOD.</em>
             </h2>
 
-            <Link to="/contact"
+            <a href="/contact"
               className="contact-button"
               aria-hidden="true">
                 Let's Talk
                 <span>
-                  <FiArowUpRight />
+                  <FiArrowUpRight />
                 </span>
-            </Link>
+            </a>
           </div>
 
           <div className="contact-art">
