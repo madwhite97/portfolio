@@ -10,6 +10,7 @@ import {
   FiArrowRight,
 } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import heroBackground from "./assets/hero.jpg";
 import allOutLaptop from "./assets/all-out-laptop.svg";
@@ -115,16 +116,16 @@ function Home() {
       >
         {/* NAVBAR */}
         <header className="navbar">
-          <a href="#home" className="logo">
+          <Link to="#home" className="logo">
             MW<span>.</span>
-          </a>
+          </Link>
 
           <nav className="nav-links">
-            <a href="/work">Work</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#process">Process</a>
-            <a href="/contact">Contact</a>
+            <Link to="/work">Work</Link>
+            <Link to="#about">About</Link>
+            <Link to="#services">Services</Link>
+            <Link to="#process">Process</Link>
+            <Link to="/contact">Contact</Link>
           </nav>
 
           <div className="nav-actions">
@@ -138,10 +139,10 @@ function Home() {
               <FaGithub />
             </a>
 
-            <a href="/contact" className="nav-button">
+            <Link to="/contact" className="nav-button">
               Let's Work Together
               <FiArrowUpRight />
-            </a>
+            </Link>
           </div>
         </header>
 
@@ -226,19 +227,19 @@ function Home() {
                 delay: 0.85,
               }}
             >
-              <a href="/work" className="button button-primary">
+              <Link to="/work" className="button button-primary">
                 View My Work
                   <span>
                     <FiArrowDownRight />
                   </span>
-              </a>
+              </Link>
 
-              <a href="/contact" className="button button-outline">
+              <Link to="/contact" className="button button-outline">
                 Let's Talk
                 <span>
                   <FiArrowUpRight />
                 </span>
-              </a>
+              </Link>
             </motion.div>
 
           </div>
@@ -599,14 +600,14 @@ function Home() {
                 <p>Ecommerce / Small Business</p>
               </div>
 
-              <a href={featuredProjects[2].url}
+              <Link to={featuredProjects[2].url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project-card-arrow"
                 aria-label="View Ladybug Lane Crochet project"
               >
                 <FiArrowUpRight />
-              </a>
+              </Link>
 
             </div>
 
@@ -983,12 +984,12 @@ function Home() {
               </div>
             </div>
 
-            <a href="/contact" className="process-button">
+            <Link to="/contact" className="process-button">
               Start a Project
               <span>
                 <FiArrowUpRight />
               </span>
-            </a>
+            </Link>
 
           </div>
 
@@ -1022,14 +1023,14 @@ function Home() {
               <em>GOOD.</em>
             </h2>
 
-            <a href="/contact"
+            <Link to="/contact"
               className="contact-button"
               aria-hidden="true">
                 Let's Talk
                 <span>
                   <FiArrowUpRight />
                 </span>
-            </a>
+            </Link>
           </div>
 
           <div className="contact-art">

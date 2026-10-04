@@ -80,9 +80,9 @@ export default function Work() {
 
             {/* NAV */}
             <nav className="work-nav">
-                <a href="/" className="work-logo">
+                <Link to="/" className="work-logo">
                     MW.
-                </a>
+                </Link>
 
                 <div className="work-nav-links">
                     <Link to="/">HOME</Link>
@@ -103,10 +103,10 @@ export default function Work() {
                         <FaGithub />
                     </a>
 
-                    <a href="/contact" className="work-contact-button">
+                    <Link to="/contact" className="work-contact-button">
                         Let's Work Together
                         <FiArrowUpRight />
-                    </a>
+                    </Link>
                 </div>
             </nav>
 

@@ -709,3 +709,29 @@
         min-height: 300px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 100px) {
+    .work-nav {
+        width: 92%;
+        grid-template-columns: auto 1fr auto;
+        gap: 18px;
+    }
+
+    .work-nav-links {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .work-nav-links {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .work-nav-links a {
+        font-size: 10px;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
+}

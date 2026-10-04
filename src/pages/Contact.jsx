@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
-import { FiMail, FiMapPin, FiClock, FiArrowUpRight, FiArrowRight } from "react-icons/fi";
+import { FiMail, FiMapPin, FiClock } from "react-icons/fi";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import Footer from "../components/Footer";
 import "./Contact.css";
@@ -34,18 +35,18 @@ export default function Contact() {
             {/* NAV */}
 
             <nav className="contact-nav">
-                <a href="/" className="contact-logo">
+                <Link to="/" className="contact-logo">
                     MW.
-                </a>
+                </Link>
 
                 <div className="contact-nav-links">
-                    <a href="/">HOME</a>
-                    <a href="/#about">ABOUT</a>
-                    <a href="/#services">SERVICES</a>
-                    <a href="/#process">PROCESS</a>
-                    <a href="/contact" className="active">
+                    <Link to="/">HOME</Link>
+                    <Link to="/#about">ABOUT</Link>
+                    <Link to="/#services">SERVICES</Link>
+                    <Link to="/#process">PROCESS</Link>
+                    <Link to="/contact" className="active">
                         CONTACT
-                    </a>            
+                    </Link>            
                 </div>
                 
                 <div className="contact-nav-actions">
@@ -315,9 +316,9 @@ export default function Contact() {
 
                                     <div>
                                         <span>EMAIL</span>
-                                        <a href="mailto:madwhite97@gmail.com">
+                                        <Link to="mailto:madwhite97@gmail.com">
                                             madwhite97@gmail.com
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
 
