@@ -740,4 +740,21 @@
         margin-bottom: 30px;
         line-height: 1.22;
     }
+
+    .work-hero h1.work-hero-title {
+        line-height: 0.95;
+        margin-bottom: 0;
+    }
+
+    .work-hero-title .work-title-break {
+        display: none;
+    }
+
+    .work-hero-title > span {
+        display: block;
+    }
+
+    .work-hero-title .work-title-second {
+        margin-top: 18px;
+    }
 }

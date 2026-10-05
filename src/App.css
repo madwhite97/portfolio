@@ -3603,5 +3603,19 @@ marquee::before {
 
     transform: rotate(8deg);
   }
+
+  .contact-section .contact-silhouette {
+    width: 115%;
+    max-width: 390px;
+    max-height: none;
+
+    top: -180px;
+    bottom: auto;
+
+    left: 50%;
+    right: auto;
+
+    transform: translateX(-50%);
+  }
 }
 

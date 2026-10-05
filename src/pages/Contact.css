@@ -1082,4 +1082,73 @@
         right: -5px;
         bottom: 5px;
     }
+
+    .contact-page .contact-collage {
+        height: 390px;
+    }
+
+    .contact-page .contact-collage .contact-silhouette {
+        width: 82%;
+        max-width: none;
+
+        top: 0;
+        left: -3%;
+        right: auto;
+        bottom: auto;
+
+        transform: none;
+    }
+
+    .contact-page .contact-paperclip-note {
+        width: 28%;
+        top: 30px;
+        right: 0;
+        bottom: auto;
+    }
+
+    .contact-page .contact-details {
+        isolation: isolate;
+        z-index: 6;
+
+        width: 82%;
+        box-sizing: border-box;
+        margin: 0 auto;
+
+        padding: 40px 35px;
+        gap: 22px;
+    }
+
+    .contact-page .contact-details-note {
+        inset: 0;
+
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        
+        transform: none;
+        z-index: 0;
+    }
+
+    .contact-page .contact-detail {
+        position: relative;
+        z-index: 1;
+
+        grid-template-columns: 36px minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .contact-page .contact-detail a {
+        overflow-wrap: anywhere;
+    }
+
+    .contact-page .contact-right-flower {
+        width: 150px;
+        right: 0;
+        bottom: 0;
+    }
+
+    .contact-page .contact-social-copy {
+        position: relative;
+        left: 20px;
+    }
 }

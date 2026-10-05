@@ -129,17 +129,19 @@ export default function Work() {
                         <span>WORK</span>
                     </div>
 
-                    <h1>
-                        A CLOSER LOOK
-                        <br />
-                        AT <em>MY WORK.</em>
+                    <h1 className="work-hero-title">
+                        <span>A CLOSER LOOK</span>
+                        <br className="work-title-break" />
+                        <span className="work-title-second">
+                            AT <em>MY WORK.</em>
+                        </span>
                     </h1>
 
                     <p>
                         A collection of websites designed and devleoped for businesses, brands, and a few ideas I simply wanted to bring to life.
                     </p>
 
-                    <a href="/#contact"                 className="work-hero-button">
+                    <a href="/contact"                 className="work-hero-button">
                         Let's Work Together
                         <FiArrowUpRight />
                     </a>
