@@ -21,12 +21,37 @@ export default function Contact() {
 
     const [formStatus, setFormStatus] = useState("idle");
 
-    const handleSubmit = (e) => {
+    const handleSubmit = asynce (e) => {
         e.preventDefault();
 
-        console.log("REACT FORM SUBMIT WORKED");
+        if (formStatus === "sending") return;
 
-        setFormStatus("success");
+        const form = e.currentTarget;
+        const data = new FormData(form);
+
+        setFormStatus("sending");
+
+        try {
+            const response = await fetch(
+                "https://formspree.io/f/xoevzzjo",
+                {
+                    method: "POST",
+                    body: data,
+                    headers: {
+                        Accept: "application/json",
+                    },
+                }
+            );
+
+            if (!response.ok) {
+                throw new Error("Submission failed");
+            }
+
+            form.reset();
+            setFormStatus("success");
+        } catch {
+            setFormStatus("error");
+        }
     };
 
     return (
@@ -251,8 +276,11 @@ export default function Contact() {
                                 <button
                                     type="submit"
                                     className="contact-submit"
+                                    disabled={formStatus === "sending"}
                                 >
-                                    Send Message →
+                                    {formStatus === "sending"
+                                        ? "Sending..."
+                                    : "Send Message →"}
                                 </button>
 
                                 {formStatus === "error" && (
