@@ -3629,5 +3629,24 @@ marquee::before {
 
     transform: rotate(8deg);
   }
+
+  .contact-section .contact-note {
+    top: 165px;
+    left: -200px;
+
+    right: auto;
+    bottom: auto;
+
+    transform: rotate(-6deg);
+  }
+
+  .contact-section .contact-inner {
+    min-height: 640px;
+  }
+
+  .contact-section {
+    min-height: auto;
+    padding-bottom: 35px;
+  }
 }
 

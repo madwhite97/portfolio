@@ -1201,10 +1201,16 @@
 
     .contact-page .contact-social-inner {
         position: relative;
-        left: 25px;
+        left: 50px;
     }
 
     .contact-page .contact-social-copy {
         left: 0;
+    }
+
+    .contact-page .contact-details {
+        position: relative;
+        top: 25px;
+        left: 20px;
     }
 }

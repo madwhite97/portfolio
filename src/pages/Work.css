@@ -710,7 +710,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 100px) {
+@media (min-width: 768px) and (max-width: 1100px) {
     .work-nav {
         width: 92%;
         grid-template-columns: auto 1fr auto;
