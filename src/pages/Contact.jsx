@@ -21,7 +21,7 @@ export default function Contact() {
 
     const [formStatus, setFormStatus] = useState("idle");
 
-    const handleSubmit = asynce (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
         if (formStatus === "sending") return;
