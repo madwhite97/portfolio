@@ -2983,3 +2983,9 @@ button {
     gap: 8px;
   }
 }
+
+@media (max-width: 767px) {
+  .hero-ipad {
+    bottom: 12%;
+  }
+}
