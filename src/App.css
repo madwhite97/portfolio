@@ -3488,5 +3488,53 @@ marquee::before {
 
     transform: rotate(10deg);
   }
+
+  .hero-device-scene {
+    width: 82%;
+    max-width: 700px;
+
+    margin: 65px 0 0 auto;
+  }
+
+  .featured-laptop {
+    bottom: 85px;
+  }
+
+  .featured-visual {
+    padding-bottom: 25px;
+  }
+
+  .featured-project {
+    row-gap: 16px;
+  }
+
+  .contact-art {
+    position: relative;
+    min-height: 420px;
+  }
+
+  .contact-silhouette {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+
+    position: absolute;
+    width: min(340px, 90%);
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .contact-note {
+    z-index: 4;
+  }
 }
 

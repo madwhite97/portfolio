@@ -6,24 +6,33 @@ import Work from "./pages/Work";
 import Contact from "./pages/Contact";
 
 function ScrollToHash() {
-    const { hash } = useLocation();
+    const { pathname, hash, key } = useLocation();
 
     useEffect(() => {
+        if (pathname === "/work" || pathname === "/contact") {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "instant",
+            });
+            return;
+        }
+
         if (!hash) return;
 
         const timer = setTimeout(() => {
-            const element = document.querySelector(hash);
+            const element = document.getElementById(
+                decodeURIComponent(hash.slice(1))
+            );
 
-            if (element) {
-                element.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                });
-            }
+            element?.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            });
         }, 100);
 
         return () => clearTimeout(timer);
-    }, [hash]);
+    }, [pathname, hash, key]);
 
     return null;
 }

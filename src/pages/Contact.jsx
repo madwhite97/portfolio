@@ -105,13 +105,10 @@ export default function Contact() {
                     animate={{ opacity: 1, rotate: -7 }}
                     transition={{ duration: 0.8, delay: 0.35 }}
                 >
-                    Good
-                    <br />
-                    ideas
-                    <br />
-                    start
-                    <br />
-                    here. ♡
+                    <span>Good </span>
+                    <span>ideas </span>
+                    <span>start </span>
+                    <span>here. ♡</span>
                 </motion.div>
             </section>
 

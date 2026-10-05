@@ -734,4 +734,10 @@
         letter-spacing: 1px;
         white-space: nowrap;
     }
+
+    .work-hero h1 {
+        margin-top: 28px;
+        margin-bottom: 30px;
+        line-height: 1.08;
+    }
 }
