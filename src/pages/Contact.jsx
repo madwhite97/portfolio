@@ -91,11 +91,11 @@ export default function Contact() {
                     </h1>
 
                     <p>
-                        Have a project in mind, a question, or just want to say hi?
+                        Have a project in mind, a question, or just want to say hi?{" "}
                         <br />
-                        I'd love to hear from you. Fill out the form or reach out directly
+                        I'd love to hear from you. Fill out the form or reach out directly{" "}
                         <br />
-                        and I'll get back to you as soon as possible.
+                        and I'll get back to you as soon as possible.{" "}
                     </p>
                 </motion.div>
 
