@@ -3617,5 +3617,17 @@ marquee::before {
 
     transform: translateX(-50%);
   }
+
+  .contact-section .contact-note {
+    width: 190px;
+    max-width: none;
+
+    top: 190px;
+    left: -180px;
+    right: auto;
+    bottom: auto;
+
+    transform: rotate(8deg);
+  }
 }
 

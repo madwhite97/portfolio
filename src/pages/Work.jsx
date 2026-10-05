@@ -141,10 +141,10 @@ export default function Work() {
                         A collection of websites designed and devleoped for businesses, brands, and a few ideas I simply wanted to bring to life.
                     </p>
 
-                    <a href="/contact"                 className="work-hero-button">
+                    <Link to="/contact" className="work-hero-button">
                         Let's Work Together
                         <FiArrowUpRight />
-                    </a>
+                    </Link>
                 </motion.div>
 
                 <div className="work-hero-note">

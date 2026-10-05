@@ -1151,4 +1151,60 @@
         position: relative;
         left: 20px;
     }
+
+    .contact-page .contact-collage .contact-silhouette {
+        width: 88%;
+    }
+
+    .contact-page .contact-details {
+        position: relative;
+        isolation: isolate;
+        z-index: 6;
+
+        width: 82%;
+        box-sizing: border-box;
+
+        margin: 35px 0 0 15%;
+
+        padding: 50px 40px 50px 70px;
+        gap: 22px;
+    }
+
+    .contact-page .contact-details-note {
+        position: absolute;
+        inset: 0;
+
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+
+        transform: none;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .contact-page .contact-detail {
+        position: relative;
+        z-index: 1;
+
+        grid-template-columns: 36px minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .contact-page .contact-detail > div {
+        min-width: 0;
+    }
+
+    .contact-page .contact-detail a {
+        overflow-wrap: anywhere;
+    }
+
+    .contact-page .contact-social-inner {
+        position: relative;
+        left: 25px;
+    }
+
+    .contact-page .contact-social-copy {
+        left: 0;
+    }
 }
