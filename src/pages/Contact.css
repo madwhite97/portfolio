@@ -884,6 +884,7 @@
     align-items: center;
     min-height: 44px;
     font-size: 12px;
+    letter-spacing: 1px;
   }
   .contact-page .contact-hero {
     min-height: 0;
@@ -931,8 +932,8 @@
   }
   .contact-page .contact-info {
     min-height: 0;
-    padding-bottom: 110px;
     position: relative;
+    padding-bottom: 160px;
   }
   .contact-page .contact-collage {
     height: clamp(260px, 72vw, 450px);
@@ -961,13 +962,15 @@
     position: relative;
     top: auto;
     left: auto;
-    width: 100%;
-    margin: 12px 0 0;
     box-sizing: border-box;
-    padding: 38px 25px;
     isolation: isolate;
     z-index: 1;
-    gap: 20px;
+    width: 100%;
+    margin: 25px auto 0;
+    padding: 20px 10px;
+    background: transparent;
+    gap: 28px;
+    text-align: center;
   }
   .contact-page .contact-details-note {
     position: absolute;
@@ -978,15 +981,18 @@
     transform: none;
     z-index: 0;
     pointer-events: none;
+    display: none;
   }
   .contact-page .contact-detail {
     position: relative;
     z-index: 1;
-    grid-template-columns: 28px minmax(0, 1fr);
-    gap: 12px;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    gap: 10px;
   }
   .contact-page .contact-detail > div {
     min-width: 0;
+    width: 100%;
   }
   .contact-page .contact-detail a, .contact-page .contact-detail p {
     overflow-wrap: anywhere;
@@ -1011,94 +1017,20 @@
     grid-template-columns: 1fr;
     width: 100%;
   }
-}
-
-@media (max-width: 767px) {
-    .contact-page .contact-info {
-        position: relative;
-        padding-bottom: 110px;
-    }
-
-    .contact-page .contact-details-note {
-        display: none;
-    }
-
-    .contact-page .contact-details {
-        width: 100%;
-        margin: 25px auto 0;
-        padding: 20px 10px;
-        background: transparent;
-        gap: 28px;
-        text-align: center;
-    }
-
-    .contact-page .contact-detail {
-        grid-template-columns: minmax(0, 1fr);
-        justify-items: center;
-        gap: 10px;
-    }
-
-    .contact-page .contact-detail > div {
-        width: 100%;
-    }
-
-    .contact-page .contact-right-flower {
-        display: block;
-        position: absolute;
-        width: 110px;
-        height: auto;
-        right: -10px;
-        bottom: 0;
-        pointer-events: none;
-    }
-}
-
-@media (max-width: 767px) {
-    .contact-page .contact-info {
-        padding-bottom: 160px;
-    }
-
-    .contact-page .contact-right-flower {
-        width: 170px;
-        right: -10px;
-        bottom: 0;
-    }
-
-    .contact-page .contact-nav {
-        width: 90%;
-        height: auto;
-        min-height: 90px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        padding: 16px 0;
-    }
-
-    .contact-page .contact-nav-links {
-        display: flex;
-        order: 3;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 4px 16px;
-    }
-
-    .contact-page .contact-nav-links a {
-        display: inline-flex;
-        align-items: center;
-        min-height: 44px;
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-
-    .contact-page .contact-github {
-        min-width: 44px;
-        min-height: 44px;
-    }
-
-    .contact-page .contact-nav-links a::after {
-        bottom: 0;
-    }
+  .contact-page .contact-right-flower {
+    display: block;
+    position: absolute;
+    height: auto;
+    pointer-events: none;
+    width: 170px;
+    right: -10px;
+    bottom: 0;
+  }
+  .contact-page .contact-github {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .contact-page .contact-nav-links a::after {
+    bottom: 0;
+  }
 }
