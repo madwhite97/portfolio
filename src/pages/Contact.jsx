@@ -8,14 +8,14 @@ import Footer from "../components/Footer";
 import "./Contact.css";
 
 import ctaBackground from "../assets/contact/cta-background.jpg";
-import formTexture from "../assets/contact/form-texture.jpg";
+import formTexture from "../assets/contact/form-texture.webp";
 import leftFlower from "../assets/contact/left-flower.svg";
 import note from "../assets/contact/note.svg";
-import paperclipNote from "../assets/contact/paperclip-note.svg";
-import rightFlower from "../assets/contact/right-flower.svg";
-import silhouette from "../assets/contact/silhouette.svg";
+import paperclipNote from "../assets/contact/paperclip-note.webp";
+import rightFlower from "../assets/contact/right-flower.webp";
+import silhouette from "../assets/contact/silhouette.webp";
 import workHero from "../assets/work/work-hero.jpg";
-import aboutBackground from "../assets/about-background.jpg";
+import aboutBackground from "../assets/about-background.webp";
 
 export default function Contact() {
 

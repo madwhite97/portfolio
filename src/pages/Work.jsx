@@ -9,13 +9,13 @@ import Footer from "../components/Footer";
 import workHero from "../assets/work/work-hero.jpg";
 import allOut from "../assets/work/work-all-out.jpg";
 import ladybug from "../assets/work/work-ladybug.jpg";
-import polished from "../assets/work/work-polished.jpg";
-import kulorwerkz from "../assets/work/work-kulorwerkz.jpg";
+import polished from "../assets/work/work-polished.webp";
+import kulorwerkz from "../assets/work/work-kulorwerkz.webp";
 import tla from "../assets/work/work-tla.jpg";
 import countryRose from "../assets/work/work-country-rose.jpg";
 import workFlower from "../assets/work/work-flower.svg";
 import greenPatch from "../assets/work/work-green-patch.svg";
-import aboutBackground from "../assets/about-background.jpg";
+import aboutBackground from "../assets/about-background.webp";
 
 const projects = [
     {

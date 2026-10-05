@@ -12,34 +12,34 @@ import {
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import heroBackground from "./assets/hero.jpg";
+import heroBackground from "./assets/hero.webp";
 import allOutLaptop from "./assets/all-out-laptop.svg";
 import ladybugIpad from "./assets/ladybug-lane-ipad.svg";
-import polishedPhone from "./assets/polished-by-leydi-phone.svg";
+import polishedPhone from "./assets/polished-by-leydi-phone.webp";
 import workLeaf from "./assets/work/work-leaf.svg";
-import allOutScreenshot from "./assets/all-out-services-hero.jpeg";
+import allOutScreenshot from "./assets/all-out-services-hero.webp";
 import featuredWorkRocks from "./assets/featured-work-rocks.svg";
 import projectLeaf from "./assets/project-leaf.svg";
 import kulorwerkzCard from "./assets/kulorwerkz-card.svg";
 import ladybugLaneCard from "./assets/ladybug-lane-hero.svg";
 import polishedByLeydiCard from "./assets/polished-by-leydi-hero.svg";
-import kulorwerkzScreenshot from "./assets/kulorwerkz-screenshot.jpeg";
-import ladybugScreenshot from "./assets/ladybug-screenshot.jpeg";
-import polishedScreenshot from "./assets/polished-screenshot.jpeg";
-import marqueeBackground from "./assets/marquee-background.jpg";
+import kulorwerkzScreenshot from "./assets/kulorwerkz-screenshot.webp";
+import ladybugScreenshot from "./assets/ladybug-screenshot.webp";
+import polishedScreenshot from "./assets/polished-screenshot.webp";
+import marqueeBackground from "./assets/marquee-background.webp";
 import computerIcon from "./assets/computer.svg";
 import pencilIcon from "./assets/pencil.svg";
 import seoIcon from "./assets/seo.svg";
 import serviceStarsIcon from "./assets/service-stars.svg";
-import leftServiceLeaf from "./assets/left-service-leaf.svg";
+import leftServiceLeaf from "./assets/left-service-leaf.webp";
 import rightServiceLeaf from "./assets/right-service-leaf.svg";
 import aboutPhoto from "./assets/about-photo.jpg";
 import aboutLeaf from "./assets/about-leaf.svg";
-import aboutFlower from "./assets/about-flower.svg";
-import aboutBackground from "./assets/about-background.jpg";
+import aboutFlower from "./assets/about-flower.webp";
+import aboutBackground from "./assets/about-background.webp";
 import processFlower from "./assets/process-flower.svg";
 import contactBackground from "./assets/contact-background.jpg";
-import contactSilhouette from "./assets/contact-silhouette.svg";
+import contactSilhouette from "./assets/contact-silhouette.webp";
 import contactNote from "./assets/contact-note.svg";
 
 const featuredProjects = [
