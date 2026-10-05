@@ -2986,6 +2986,6 @@ button {
 
 @media (max-width: 767px) {
   .hero-ipad {
-    bottom: 6%;
+    bottom: -6%;
   }
 }
