@@ -3536,5 +3536,72 @@ marquee::before {
   .contact-note {
     z-index: 4;
   }
+
+  .hero-laptop {
+    right: 0;
+  }
+
+  .hero-ipad {
+    left: -2%;
+    bottom: 25px;
+  }
+
+  .hero-phone {
+    width: 28%;
+    bottom: 50px;
+  }
+
+  .contact-section .contact-inner {
+    position: relative;
+    display:  block;
+    min-height: 760px;
+  }
+
+  .contact-section .contact-content {
+    max-width: 62%;
+  }
+
+  .contact-section .contact-art {
+    position: absolute;
+
+    width: 44%;
+    height: 440px;
+    min-height: 0;
+    margin: 0;
+
+    top: 250px;
+    right: 0;
+    left: auto;
+    bottom: auto;
+  }
+
+  .contact-section .contact-shilhouette {
+    position: absolute;
+    display: block;
+
+    width: 100%;
+    max-width: 340px;
+    max-height: none;
+    height: auto;
+
+    top: 0;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+
+    transform: translateX(-50%);
+  }
+
+  .contact-section .contact-note {
+    width: 65%;
+    max-width: 210px;
+
+    top: auto;
+    left: auto;
+    right: 0;
+    bottom: -30px;
+
+    transform: rotate(8deg);
+  }
 }
 
