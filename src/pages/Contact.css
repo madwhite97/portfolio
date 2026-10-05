@@ -1213,4 +1213,37 @@
         top: 85px;
         left: 60px;
     }
+
+    .contact-page .contact-details {
+        padding: 65px 35px 55px 100px;
+        isolation: isolate;
+    }
+
+    .contact-page .contact-details-note {
+        position: absolute;
+        inset: 0;
+
+        width: 100%;
+        height: 100%;
+        transform: none;
+
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .contact-page .contact-detail {
+        position: relative;
+        z-index: 1;
+    }
+
+    .contact-page .contact-paperclip-note {
+        top: 65px;
+        bottom: auto;
+    }
+
+    .contact-page .contact-right-flower {
+        width: 190px;
+        right: 0;
+        bottom: 0;it
+    }
 }
