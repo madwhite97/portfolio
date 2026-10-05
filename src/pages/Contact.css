@@ -1237,13 +1237,13 @@
     }
 
     .contact-page .contact-paperclip-note {
-        top: 65px;
+        top: 95px;
         bottom: auto;
     }
 
     .contact-page .contact-right-flower {
-        width: 190px;
-        right: 0;
-        bottom: 0;
+        width: 210px;
+        right: 50;
+        bottom: 50;
     }
 }
