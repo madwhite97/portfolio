@@ -1,5 +1,5 @@
 import "../App.css";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -43,7 +43,7 @@ export default function Footer() {
         <span className="footer-credit">
           Designed &amp; developed by{" "}
           <span className="footer-credit-name">Maddie W.</span>{" "}
-          <span className="footer-heart">♥</span>
+          <FaHeart className="footer-heart" aria-hidden="true" />
         </span>
       </div>
     </footer>

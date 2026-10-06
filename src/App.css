@@ -3045,3 +3045,9 @@ button {
   }
 }
 
+.site-footer .footer-heart {
+  color: #ffffff;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
