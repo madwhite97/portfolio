@@ -1041,3 +1041,17 @@
     left: 70px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  .contact-page .contact-hero-note {
+    width: auto;
+  }
+
+  .contact-page .contact-hero-note > span {
+    display: inline;
+  }
+
+  .contact-page .contact-hero-note > span + span::before {
+    content: "";
+  }
+}
