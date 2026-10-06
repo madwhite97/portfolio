@@ -2956,5 +2956,35 @@ button {
   .contact-section .contact-art {
     left: -40px;
   }
+
+  .project-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .project-strip .mini-project,
+  .project-strip .project-card-text {
+    min-width: 0;
+  }
+
+  .project-strip .project-card-info {
+    grid-template-columns: minmax(0, 1fr) 38px;
+    gap: 12px;
+  }
+
+  .project-strip .project-card-text {
+    grid-template-columns: 42px minmax(0 1fr);
+  }
+
+  .project-strip .project-card-text h3 {
+    overflow-wrap: break-word;
+  }
+
+  .project-strip .project-card-arrow {
+    margin-right: 0;
+  }
+
+  .project-strip .mini-project:first-child .project-card-image {
+    transform: scale(1.1);
+  }
 }
 
