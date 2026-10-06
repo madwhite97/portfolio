@@ -3039,5 +3039,9 @@ button {
     height: 32px;
     margin-right: 0;
   }
+
+  .project-strip .mini-project:first-child .project-card-image {
+    transform: scale(1.06);
+  }
 }
 
