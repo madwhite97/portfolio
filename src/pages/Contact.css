@@ -1045,6 +1045,8 @@
 @media (min-width: 768px) and (max-width: 1100px) {
   .contact-page .contact-hero-note {
     width: auto;
+    position: relative;
+    left: -15px;
   }
 
   .contact-page .contact-hero-note > span {
